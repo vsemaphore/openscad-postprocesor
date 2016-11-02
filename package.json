@@ -1,11 +1,14 @@
 {
   "name": "openscad-postprocesor",
   "version": "0.0.1",
-  "main": "app.js",
-  "engines" : { "node" : ">=0.10.3 <0.12" },
+  "main": "./app",
+  "bin": {
+    "openscad-postprocesor": "./bin/openscad-postprocesor"
+  },
+  "engines" : { "node" : ">=4.0.0" },
   "dependencies": {
-    "async": "^2.1.2",
-    "cheerio": "^0.22.0",
-    "cli": "^1.0.1"
+    "async": "2.1.2",
+    "cheerio": "0.22.0",
+    "cli": "1.0.1"
   }
 }

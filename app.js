@@ -25,7 +25,7 @@ cli.main((args, options) => {
             return console.error("Error:", err);
         }
 
-        console.log(result.parse.html());
+        console.log(result);
     });
 
 });
